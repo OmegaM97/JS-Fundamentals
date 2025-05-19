@@ -8,7 +8,7 @@ if (isNaN(number)) {
 
   for (let i = 1; i <= number; i++) {
     for (let o = number; o > 0; o--) {
-      square += "*";
+      square += "X";
     }
     square += "\n";
   }
