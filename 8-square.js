@@ -10,7 +10,9 @@ if (isNaN(number)) {
     for (let o = number; o > 0; o--) {
       square += "X";
     }
-    square += "\n";
+    if (i < number) {
+      square += "\n";
+    }
   }
   console.log(square);
 }
